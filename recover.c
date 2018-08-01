@@ -16,12 +16,12 @@ int main(int argc, char* argv[])
         return 1;
     }
 
-    char* infile = argv[1];
+    char* memory_card = argv[1];
 
     FILE* raw_ptr = fopen(argv[1], "r");
     if (raw_ptr == NULL)
     {
-        fprintf(stderr, "Could not open %s.\n", infile);
+        fprintf(stderr, "Could not open %s.\n", memory_card);
         return 2;
     }
 
