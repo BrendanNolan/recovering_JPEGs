@@ -21,6 +21,7 @@ block;
 
 bool beg_jpeg(block x);
 
+
 int main(int argc, char* argv[])
 {
     //ensure proper usage
@@ -90,6 +91,7 @@ int main(int argc, char* argv[])
     // success
     return 0;
 }
+
 
 // define a function which returns true if the block looks like the beginning of a JPEG and returns false otherwise
 bool beg_jpeg(block x)
